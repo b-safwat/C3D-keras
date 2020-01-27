@@ -52,3 +52,12 @@ the final val acc of origin paper is about 44% in Figure 2, where in my implemen
 ![image](https://github.com/TianzhongSong/c3d-keras/blob/master/results/model_loss.png)
 
 The trained weight file can be downloaded from (https://pan.baidu.com/s/1gfNEaCr)
+
+Steps:
+Training a c3d model:
+1- generate the dataset frames
+2- generate the train/test splits
+3- generate the train/test stacks
+4- get the stacks mean/std
+5- train the c3d model (on keras)
+6- test the model
